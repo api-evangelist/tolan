@@ -1,7 +1,11 @@
 aid: tolan
 name: Tolan
-description: 'Tolan is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Tolan is a consumer AI companion application built by Portola and backed by Homebrew. The
+  product is a friendly alien character that users befriend for emotional support, daily check-ins, and
+  relationship guidance through conversational AI on iOS. Tolan reports 100,000+ subscribers, over two
+  million hours of user engagement, and a 4.8-star App Store rating across 160,000+ reviews. It is a
+  mobile-first, direct-to-consumer product with no public developer API, documentation, or programmatic
+  surface; this profile captures the company identity and web properties for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/tolan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +13,30 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tolans.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- AI Companion
+- Consumer
+- Mobile
+- Conversational AI
+- Emotional Support
+- iOS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tolan-domain-security.yml
 - type: Website
   url: https://www.tolans.com
+- type: Blog
+  url: https://www.tolans.com/blog
+- type: Support
+  url: https://www.tolans.com/faq
+- type: TermsOfService
+  url: https://www.tolans.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.tolans.com/privacy-policy
+- type: SignUp
+  url: https://apps.apple.com/us/app/tolan-alien-best-friend/id6477549878
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
